@@ -271,11 +271,11 @@
         }
     }
     
-//    for (CCNode *obstacleToRemove in offScreenObstacles) {
-//        [obstacleToRemove removeFromParent];
-//        [_obstacles removeObject:obstacleToRemove];
-//    }
-//    
+    for (CCNode *obstacleToRemove in offScreenObstacles) {
+        [obstacleToRemove removeFromParent];
+        [_obstacles removeObject:obstacleToRemove];
+    }
+    
     if (!_gameOver)
     {
         @try
